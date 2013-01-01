@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096D4347165005D000A05328 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D4346165005D000A05328 /* UIKit.framework */; };
+		096D4349165005D000A05328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D4348165005D000A05328 /* Foundation.framework */; };
+		096D434B165005D000A05328 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D434A165005D000A05328 /* CoreGraphics.framework */; };
+		096D4351165005D000A05328 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096D434F165005D000A05328 /* InfoPlist.strings */; };
+		096D4353165005D000A05328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4352165005D000A05328 /* main.m */; };
+		096D4357165005D000A05328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4356165005D000A05328 /* AppDelegate.m */; };
+		096D4359165005D000A05328 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 096D4358165005D000A05328 /* Default.png */; };
+		096D435B165005D000A05328 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096D435A165005D000A05328 /* Default@2x.png */; };
+		096D435D165005D000A05328 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096D435C165005D000A05328 /* Default-568h@2x.png */; };
+		096D4360165005D000A05328 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D435F165005D000A05328 /* ViewController.m */; };
+		096D4363165005D000A05328 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096D4361165005D000A05328 /* ViewController_iPhone.xib */; };
+		096D4366165005D000A05328 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096D4364165005D000A05328 /* ViewController_iPad.xib */; };
+		096D4372165007D300A05328 /* HSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D436F165007D300A05328 /* HSocket.m */; };
+		096D4373165007D300A05328 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4371165007D300A05328 /* Server.m */; };
+		096D437E165007F100A05328 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4375165007F100A05328 /* Client.m */; };
+		096D437F165007F100A05328 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4377165007F100A05328 /* Device.m */; };
+		096D4380165007F100A05328 /* DNSSDBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4379165007F100A05328 /* DNSSDBrowser.m */; };
+		096D4381165007F100A05328 /* DNSSDRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D437B165007F100A05328 /* DNSSDRegistration.m */; };
+		096D4382165007F100A05328 /* DNSSDService.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D437D165007F100A05328 /* DNSSDService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		096D4342165005D000A05328 /* Client-Serveur-Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Client-Serveur-Bluetooth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		096D4346165005D000A05328 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		096D4348165005D000A05328 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		096D434A165005D000A05328 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		096D434E165005D000A05328 /* Client-Serveur-Bluetooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Client-Serveur-Bluetooth-Info.plist"; sourceTree = "<group>"; };
+		096D4350165005D000A05328 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		096D4352165005D000A05328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		096D4354165005D000A05328 /* Client-Serveur-Bluetooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Client-Serveur-Bluetooth-Prefix.pch"; sourceTree = "<group>"; };
+		096D4355165005D000A05328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		096D4356165005D000A05328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		096D4358165005D000A05328 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		096D435A165005D000A05328 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		096D435C165005D000A05328 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		096D435E165005D000A05328 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		096D435F165005D000A05328 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		096D4362165005D000A05328 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		096D4365165005D000A05328 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		096D436E165007D300A05328 /* HSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSocket.h; sourceTree = "<group>"; };
+		096D436F165007D300A05328 /* HSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSocket.m; sourceTree = "<group>"; };
+		096D4370165007D300A05328 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		096D4371165007D300A05328 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		096D4374165007F100A05328 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		096D4375165007F100A05328 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		096D4376165007F100A05328 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		096D4377165007F100A05328 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		096D4378165007F100A05328 /* DNSSDBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDBrowser.h; sourceTree = "<group>"; };
+		096D4379165007F100A05328 /* DNSSDBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDBrowser.m; sourceTree = "<group>"; };
+		096D437A165007F100A05328 /* DNSSDRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDRegistration.h; sourceTree = "<group>"; };
+		096D437B165007F100A05328 /* DNSSDRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDRegistration.m; sourceTree = "<group>"; };
+		096D437C165007F100A05328 /* DNSSDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDService.h; sourceTree = "<group>"; };
+		096D437D165007F100A05328 /* DNSSDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096D433F165005D000A05328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096D4347165005D000A05328 /* UIKit.framework in Frameworks */,
+				096D4349165005D000A05328 /* Foundation.framework in Frameworks */,
+				096D434B165005D000A05328 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096D4337165005D000A05328 = {
+			isa = PBXGroup;
+			children = (
+				096D434C165005D000A05328 /* Client-Serveur-Bluetooth */,
+				096D4345165005D000A05328 /* Frameworks */,
+				096D4343165005D000A05328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		096D4343165005D000A05328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096D4342165005D000A05328 /* Client-Serveur-Bluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096D4345165005D000A05328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096D4346165005D000A05328 /* UIKit.framework */,
+				096D4348165005D000A05328 /* Foundation.framework */,
+				096D434A165005D000A05328 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		096D434C165005D000A05328 /* Client-Serveur-Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				096D436D165007B000A05328 /* Server Classes */,
+				096D436C165007A800A05328 /* Client Classes */,
+				096D4355165005D000A05328 /* AppDelegate.h */,
+				096D4356165005D000A05328 /* AppDelegate.m */,
+				096D435E165005D000A05328 /* ViewController.h */,
+				096D435F165005D000A05328 /* ViewController.m */,
+				096D4361165005D000A05328 /* ViewController_iPhone.xib */,
+				096D4364165005D000A05328 /* ViewController_iPad.xib */,
+				096D434D165005D000A05328 /* Supporting Files */,
+			);
+			path = "Client-Serveur-Bluetooth";
+			sourceTree = "<group>";
+		};
+		096D434D165005D000A05328 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				096D434E165005D000A05328 /* Client-Serveur-Bluetooth-Info.plist */,
+				096D434F165005D000A05328 /* InfoPlist.strings */,
+				096D4352165005D000A05328 /* main.m */,
+				096D4354165005D000A05328 /* Client-Serveur-Bluetooth-Prefix.pch */,
+				096D4358165005D000A05328 /* Default.png */,
+				096D435A165005D000A05328 /* Default@2x.png */,
+				096D435C165005D000A05328 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096D436C165007A800A05328 /* Client Classes */ = {
+			isa = PBXGroup;
+			children = (
+				096D4374165007F100A05328 /* Client.h */,
+				096D4375165007F100A05328 /* Client.m */,
+				096D4376165007F100A05328 /* Device.h */,
+				096D4377165007F100A05328 /* Device.m */,
+				096D4378165007F100A05328 /* DNSSDBrowser.h */,
+				096D4379165007F100A05328 /* DNSSDBrowser.m */,
+				096D437A165007F100A05328 /* DNSSDRegistration.h */,
+				096D437B165007F100A05328 /* DNSSDRegistration.m */,
+				096D437C165007F100A05328 /* DNSSDService.h */,
+				096D437D165007F100A05328 /* DNSSDService.m */,
+			);
+			name = "Client Classes";
+			sourceTree = "<group>";
+		};
+		096D436D165007B000A05328 /* Server Classes */ = {
+			isa = PBXGroup;
+			children = (
+				096D436E165007D300A05328 /* HSocket.h */,
+				096D436F165007D300A05328 /* HSocket.m */,
+				096D4370165007D300A05328 /* Server.h */,
+				096D4371165007D300A05328 /* Server.m */,
+			);
+			name = "Server Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096D4341165005D000A05328 /* Client-Serveur-Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096D4369165005D000A05328 /* Build configuration list for PBXNativeTarget "Client-Serveur-Bluetooth" */;
+			buildPhases = (
+				096D433E165005D000A05328 /* Sources */,
+				096D433F165005D000A05328 /* Frameworks */,
+				096D4340165005D000A05328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Client-Serveur-Bluetooth";
+			productName = "Client-Serveur-Bluetooth";
+			productReference = 096D4342165005D000A05328 /* Client-Serveur-Bluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096D4339165005D000A05328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Olivier Philbert";
+			};
+			buildConfigurationList = 096D433C165005D000A05328 /* Build configuration list for PBXProject "Client-Serveur-Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 096D4337165005D000A05328;
+			productRefGroup = 096D4343165005D000A05328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096D4341165005D000A05328 /* Client-Serveur-Bluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096D4340165005D000A05328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096D4351165005D000A05328 /* InfoPlist.strings in Resources */,
+				096D4359165005D000A05328 /* Default.png in Resources */,
+				096D435B165005D000A05328 /* Default@2x.png in Resources */,
+				096D435D165005D000A05328 /* Default-568h@2x.png in Resources */,
+				096D4363165005D000A05328 /* ViewController_iPhone.xib in Resources */,
+				096D4366165005D000A05328 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096D433E165005D000A05328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096D4353165005D000A05328 /* main.m in Sources */,
+				096D4357165005D000A05328 /* AppDelegate.m in Sources */,
+				096D4360165005D000A05328 /* ViewController.m in Sources */,
+				096D4372165007D300A05328 /* HSocket.m in Sources */,
+				096D4373165007D300A05328 /* Server.m in Sources */,
+				096D437E165007F100A05328 /* Client.m in Sources */,
+				096D437F165007F100A05328 /* Device.m in Sources */,
+				096D4380165007F100A05328 /* DNSSDBrowser.m in Sources */,
+				096D4381165007F100A05328 /* DNSSDRegistration.m in Sources */,
+				096D4382165007F100A05328 /* DNSSDService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		096D434F165005D000A05328 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096D4350165005D000A05328 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		096D4361165005D000A05328 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096D4362165005D000A05328 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		096D4364165005D000A05328 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096D4365165005D000A05328 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096D4367165005D000A05328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		096D4368165005D000A05328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096D436A165005D000A05328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client-Serveur-Bluetooth/Client-Serveur-Bluetooth-Prefix.pch";
+				INFOPLIST_FILE = "Client-Serveur-Bluetooth/Client-Serveur-Bluetooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		096D436B165005D000A05328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Client-Serveur-Bluetooth/Client-Serveur-Bluetooth-Prefix.pch";
+				INFOPLIST_FILE = "Client-Serveur-Bluetooth/Client-Serveur-Bluetooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096D433C165005D000A05328 /* Build configuration list for PBXProject "Client-Serveur-Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096D4367165005D000A05328 /* Debug */,
+				096D4368165005D000A05328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096D4369165005D000A05328 /* Build configuration list for PBXNativeTarget "Client-Serveur-Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096D436A165005D000A05328 /* Debug */,
+				096D436B165005D000A05328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 096D4339165005D000A05328 /* Project object */;
+}
